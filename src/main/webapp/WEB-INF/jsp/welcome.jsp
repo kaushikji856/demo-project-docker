@@ -30,9 +30,7 @@
 
 		<div class="starter-template">
 			<h1>Spring Boot Microservice build and deploy on docker by Ansibe</h1>
-			<h1>Spring Boot Microservice build and deploy on docker by Ansibe</h1>
-			<h1>Spring Boot Microservice build and deploy on docker by Ansibe</h1>
-			<h1>Spring Boot Microservice build and deploy on docker by Ansibe</h1>
+			<h1>Spring Boot Microservice build and deploy on docker by Ansibe with Suneesh</h1>
 			<h2>Message: ${message}</h2>
 		</div>
 
