@@ -3,20 +3,16 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <html lang="en">
 <head>
-
 <link rel="stylesheet" type="text/css"
 	href="webjars/bootstrap/3.3.7/css/bootstrap.min.css" />
-
 <!-- 
 	<spring:url value="/css/main.css" var="springCss" />
 	<link href="${springCss}" rel="stylesheet" />
 	 -->
 <c:url value="/css/main.css" var="jstlCss" />
 <link href="${jstlCss}" rel="stylesheet" />
-
 </head>
 <body>
-
 	<nav class="navbar navbar-inverse">
 		<div class="container">
 			<div class="navbar-header">
@@ -30,58 +26,19 @@
 			</div>
 		</div>
 	</nav>
-
 	<div class="container">
 
 		<div class="starter-template">
-			<h1>Spring Boot Microservice build and deploy on docker by Ansibe with Suneesh</h1>
+			<h1>Spring Boot Microservice build and deploy on docker by Ansibe</h1>
+			<h1>Spring Boot Microservice build and deploy on docker by Ansibe</h1>
+			<h1>Spring Boot Microservice build and deploy on docker by Ansibe</h1>
+			<h1>Spring Boot Microservice build and deploy on docker by Ansibe</h1>
 			<h2>Message: ${message}</h2>
 		</div>
 
 	</div>
 	<!-- /.container -->
-
 	<script type="text/javascript"
-		src="webjars/bootstrap/3.3.7/js/bootstrap.min.js">
-		function check(form)
-{
-
-if(form.userid.value == "Roseindia" && form.pwd.value == "Roseindia")
-{ 
-	return true;
-}
-else
-{
-	alert("Error Password or Username")
-	return false;
-}
-}
-	</script>
-<form name="loginForm" method="post" action="login.php">
-<table width="20%" bgcolor="0099CC" align="center">
-
-<tr>
-<td colspan=2><center><font size=4><b>HTML Login Page</b></font></center></td>
-</tr>
-
-<tr>
-<td>Username:</td>
-<td><input type="text" size=25 name="userid"></td>
-</tr>
-
-<tr>
-<td>Password:</td>
-<td><input type="Password" size=25 name="pwd"></td>
-</tr>
-
-<tr>
-<td ><input type="Reset"></td>
-<td><input type="submit" onclick="return check(this.form)" value="Login"></td>
-</tr>
-
-</table>
-</form>
-	
+		src="webjars/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
-
 </html>
